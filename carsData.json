@@ -1,0 +1,116 @@
+[
+      {
+        "id": 1,
+        "title": "Mercedes A-Class",
+        "year": 2023,
+        "mileage": "603 KM",
+        "price": "32 995 €",
+        "images": [
+          "./assets/models/Mercedes-A-Class/1.jpeg",
+          "./assets/models/Mercedes-A-Class/2.jpeg",
+          "./assets/models/Mercedes-A-Class/3.jpeg",
+          "./assets/models/Mercedes-A-Class/4.jpeg",
+          "./assets/models/Mercedes-A-Class/5.jpeg"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Mercedes AMG-GT",
+        "year": 2024,
+        "mileage": "13 632 KM",
+        "price": "171 500 €",
+        "images": [
+          "./assets/models/Mercedes-AMG-GT/1.jpeg",
+          "./assets/models/Mercedes-AMG-GT/2.jpeg",
+          "./assets/models/Mercedes-AMG-GT/3.jpeg",
+          "./assets/models/Mercedes-AMG-GT/4.jpeg",
+          "./assets/models/Mercedes-AMG-GT/5.jpeg"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Mercedes C-Class",
+        "year": 2024,
+        "mileage": "15 200 KM",
+        "price": "47 895 €",
+        "images": [
+          "./assets/models/Mercedes-C-Class/1.jpeg",
+          "./assets/models/Mercedes-C-Class/2.jpeg",
+          "./assets/models/Mercedes-C-Class/3.jpeg",
+          "./assets/models/Mercedes-C-Class/4.jpeg",
+          "./assets/models/Mercedes-C-Class/5.jpeg"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Mercedes E-Class",
+        "year": 2023,
+        "mileage": "11 KM",
+        "price": "134 990 €",
+        "images": [
+          "./assets/models/Mercedes-E-Class/1.jpeg",
+          "./assets/models/Mercedes-E-Class/2.jpeg",
+          "./assets/models/Mercedes-E-Class/3.jpeg",
+          "./assets/models/Mercedes-E-Class/4.jpeg",
+          "./assets/models/Mercedes-E-Class/5.jpeg"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Mercedes G-Class",
+        "year": 2024,
+        "mileage": "45 KM",
+        "price": "243 850 €",
+        "images": [
+          "./assets/models/Mercedes-G-Class/1.jpeg",
+          "./assets/models/Mercedes-G-Class/2.jpeg",
+          "./assets/models/Mercedes-G-Class/3.jpeg",
+          "./assets/models/Mercedes-G-Class/4.jpeg",
+          "./assets/models/Mercedes-G-Class/5.jpeg"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Mercedes GLE-Class",
+        "year": 2023,
+        "mileage": "23 300 KM",
+        "price": "77 995 €",
+        "images": [
+          "./assets/models/Mercedes-GLE-Class/1.jpeg",
+          "./assets/models/Mercedes-GLE-Class/2.jpeg",
+          "./assets/models/Mercedes-GLE-Class/3.jpeg",
+          "./assets/models/Mercedes-GLE-Class/4.jpeg",
+          "./assets/models/Mercedes-GLE-Class/5.jpeg"
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Mercedes S-Class",
+        "year": 2023,
+        "mileage": "15 400 KM",
+        "price": "104 695 €",
+        "images": [
+          "./assets/models/Mercedes-S-Class/1.jpeg",
+          "./assets/models/Mercedes-S-Class/2.jpeg",
+          "./assets/models/Mercedes-S-Class/3.jpeg",
+          "./assets/models/Mercedes-S-Class/4.jpeg",
+          "./assets/models/Mercedes-S-Class/5.jpeg"
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Mercedes SL-Class",
+        "year": 2023,
+        "mileage": "29 800 KM",
+        "price": "123 900 €",
+        "images": [
+          "./assets/models/Mercedes-SL-Class/1.jpeg",
+          "./assets/models/Mercedes-SL-Class/2.jpeg",
+          "./assets/models/Mercedes-SL-Class/3.jpeg",
+          "./assets/models/Mercedes-SL-Class/4.jpeg",
+          "./assets/models/Mercedes-SL-Class/5.jpeg"
+        ]
+      }
+    ]
+
+  

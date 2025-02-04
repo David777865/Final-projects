@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicles</title>
+    <!-- Swiper CSS -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Instrument+Serif:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="container nav-cont">
+            <div class="nav-left">
+                <span class="cmn-icon"><i class="fa-solid fa-bars"></i></span>
+                <span class="menu-text">Menu</span>
+            </div>
+            <div class="nav-center">
+                <img src="./assets/logo.png" alt="Logo" class="logo">
+            </div>
+            <div class="nav-right">
+                <span class="cmn-icon"><i class="fa-regular fa-user"></i></span>
+                <span class="sign-in-text">Sign in</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="container">
+            <h1>Mercedes-Benz Vehicles.</h1>
+            <div class="banner-image">
+                <img src="./assets/banner-img-1.png" alt="Mercedes Cars">
+            </div>
+            <p class="banner-description">Experience the automotive fascination of Mercedes-Benz.</p>
+            <div class="highlight-section">
+                <img src="./assets/banner-img-2.png" alt="Mercedes AMG C63 S E Performance">
+                <p>The Mercedes AMG C63 S E Performance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vehicle Selection Section -->
+    <section class="vehicle-section">
+        <div class="container">
+            <h1>Purchase your favorite vehicle.</h1>
+            <div class="dropdown-container">
+                <select id="carDropdown">
+                    <option value="">Select Vehicle</option>
+                </select>
+                <i class="fa-solid fa-chevron-down dropdown-icon"></i> <!-- Font Awesome icon -->
+            </div>            
+    
+            <div class="swiper swiper-container">
+                <div class="swiper-wrapper" id="carImages"></div>
+    
+                <div class="swiper-button-next"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="swiper-button-prev"><i class="fa-solid fa-arrow-left"></i></div>
+            </div>
+    
+            <div class="car-details">
+                <p>Year of car production: <span id="carYear"></span></p>
+                <p>Car mileage: <span id="carMileage"></span></p>
+                <p>Price: <span id="carPrice"></span></p>
+            </div>
+        </div>
+    </section>    
+
+    <!-- Contact Us Section -->
+    <section class="contact-section">
+        <div class="container contact-container">
+            <article class="contact-form-wrapper">
+                <header>
+                    <h2>Contact Us</h2>
+                </header>
+
+                <form id="contactForm">
+                    <fieldset>
+                        <div class="form-group">
+                            <label for="firstName">First Name<span class="required">*</span></label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastName">Last Name<span class="required">*</span></label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email<span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </fieldset>
+                    <div class="submit-cont">
+                    <button type="submit" class="submit-btn">Contact Us</button>
+                </div>
+                </form>
+            </article>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+    <div class="footer-links">
+        <a href="#">Provider</a>
+        <a href="#">Legal Notice</a>
+        <a href="#">Settings</a>
+        <a href="#">Privacy</a>
+        <a href="#">Contact</a>
+        <a href="#">Third Party License Notices</a>
+        <a href="#">Don't Sell My Personal Information (CCPA)</a>
+    </div>
+
+    <div class="footer-languages">
+        <a href="#">Deutsch</a> |
+        <a href="#">English</a>
+    </div>
+
+    <div class="footer-logo">
+        <img src="./assets/logo.png" alt="Mercedes-Benz Logo" class="footer-logo-img">
+        <img src="./assets/Logo_brand-without-claim.png" alt="Mercedes-Benz Logo text" class="footer-logo-text">
+    </div>
+
+    <div class="footer-back-to-top">
+        <a href="#top"><i class="fa-solid fa-chevron-up"></i></a>
+    </div>
+</div>
+</footer>
+
+    <script src="https://kit.fontawesome.com/ec396e49e7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
